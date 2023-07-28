@@ -1,10 +1,10 @@
 /*  your css code here. If applicable */
-span.pseudo::before{
+div.pseudo::before{
 	content: "Before Element ";
 	color: red;    
 }
 
-span.pseudo::after{
+div.pseudo::after{
 	content: " After Element";
 	color: red;
 }
