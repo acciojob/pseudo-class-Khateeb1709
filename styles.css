@@ -1,10 +1,15 @@
 /*  your css code here. If applicable */
-div.pseudo::before{
-	content: "Before Element";
-	color: red;    
+#container{
+	margin: 20px;
+}
+#container:before{
+	content: "Before Element ";
+	font-size: 20px;
+	color: #f00;    
 }
 
-div.pseudo::after{
-	content: "After Element";
-	color: red;
+#container:after{
+	content: " After Element";
+	font-size: 20px;
+	color: #f00;
 }
